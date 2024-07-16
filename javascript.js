@@ -3,7 +3,7 @@
 let array=[1,2,3,4,5];
 document.write(array);
 
-// // 2.array manipulation
+// 2.array manipulation
 
 let arr1=[1,2,3,4,5];
 console.log("before : "+arr1);
@@ -33,34 +33,34 @@ console.log("filter even number: "+arr3.filter(x=>x%2==0));
 
 // 5.map
 
-// let arr4=[1,2,3,4,5,6];
-// console.log("array : "+arr4);
-// console.log("mapping: "+arr4.map(x=>x*x));
+let arr4=[1,2,3,4,5,6];
+console.log("array : "+arr4);
+console.log("mapping: "+arr4.map(x=>x*x));
 
 //6. sort and reverse
 
-// let arr5=[2,1,4,3,5,7,6];
-// console.log("unsorted array : "+arr5);
-// console.log("sorted array : "+arr5.sort());
-// console.log("reverse array : "+arr5.reverse());
+let arr5=[2,1,4,3,5,7,6];
+console.log("unsorted array : "+arr5);
+console.log("sorted array : "+arr5.sort());
+console.log("reverse array : "+arr5.reverse());
 
 //7.array destructing
 
-// let arr6=[1,2,3,4,5,6];
-// let [a,b,c,d,e,f]=arr6;
-// console.log("destructing array :[a,b,c,d,e,f] \n"+"array values : [1,2,3,4,5,6]");
-// console.log("destructing a:"+a);
-// console.log("destructing b:"+b);
-// console.log("destructing c:"+c);
-// console.log("destructing d:"+d);
-// console.log("destructing e:"+e);
-// console.log("destructing f:"+f);
+let arr6=[1,2,3,4,5,6];
+let [a,b,c,d,e,f]=arr6;
+console.log("destructing array :[a,b,c,d,e,f] \n"+"array values : [1,2,3,4,5,6]");
+console.log("destructing a:"+a); 
+console.log("destructing b:"+b);
+console.log("destructing c:"+c);
+console.log("destructing d:"+d);
+console.log("destructing e:"+e);
+console.log("destructing f:"+f);
 
 //8.spreading
 
-// let arr7=[1,2,3,4,5,6];
-// console.log("array : "+arr7)
-// console.log("Spreading : "+[...arr7,7,8,9,10]);
+let arr7=[1,2,3,4,5,6];
+console.log("array : "+arr7)
+console.log("Spreading : "+[...arr7,7,8,9,10]);
 
 //9.join and split
 
